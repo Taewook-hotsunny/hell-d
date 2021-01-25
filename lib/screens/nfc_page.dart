@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:helld/widget/simple_alert_dialog.dart';
+import 'package:NETRIS/widget/simple_alert_dialog.dart';
 
 class NFCPage extends StatefulWidget {
   @override

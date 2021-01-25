@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:helld/screens/nfc_page.dart';
-import 'package:helld/screens/profile_page.dart';
+import 'package:NETRIS/screens/nfc_page.dart';
+import 'package:NETRIS/screens/profile_page.dart';
 
 class QRPage extends StatelessWidget {
   @override

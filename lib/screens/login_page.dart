@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:helld/screens/qr_page.dart';
-import 'package:helld/screens/sign_up_page.dart';
-import 'package:helld/screens/visitor_analysis_page.dart';
+import 'package:NETRIS/screens/qr_page.dart';
+import 'package:NETRIS/screens/sign_up_page.dart';
+import 'package:NETRIS/screens/visitor_analysis_page.dart';
 
 class LoginPage extends StatelessWidget {
   @override

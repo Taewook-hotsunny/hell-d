@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:helld/screens/qr_page.dart';
-import 'package:helld/widget/simple_alert_dialog.dart';
+import 'package:NETRIS/screens/qr_page.dart';
+import 'package:NETRIS/widget/simple_alert_dialog.dart';
 
 class SignUpPage extends StatelessWidget {
   @override

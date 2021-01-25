@@ -1,4 +1,4 @@
-name: helld
+name: NETRIS
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -33,6 +33,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.7.3
+
+flutter_icons:
+  image_path_android: "assets/icon.jpg"
+  image_path_ios: "assets/icon.jpg"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

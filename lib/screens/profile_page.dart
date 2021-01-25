@@ -79,12 +79,25 @@ class ProfilePage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Container(
-                    padding: EdgeInsets.symmetric(vertical: 10),
-                    color: Colors.brown,
-                    child: Column(
-                      children: [
-                        Row(
+                  const SizedBox(height: 25),
+                  Column(
+                    children: [
+                      Container(
+                        padding: EdgeInsets.symmetric(vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Colors.brown,
+                          border: Border(
+                            bottom: BorderSide(
+                              color: Colors.white,
+                              width: 2.0,
+                            ),
+                            top: BorderSide(
+                              color: Colors.white,
+                              width: 2.0,
+                            ),
+                          ),
+                        ),
+                        child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Expanded(
@@ -101,8 +114,19 @@ class ProfilePage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(height: 20),
-                        Row(
+                      ),
+                      Container(
+                        padding: EdgeInsets.symmetric(vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Colors.brown,
+                          border: Border(
+                            bottom: BorderSide(
+                              color: Colors.white,
+                              width: 2.0,
+                            ),
+                          ),
+                        ),
+                        child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Expanded(
@@ -119,8 +143,19 @@ class ProfilePage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(height: 20),
-                        Row(
+                      ),
+                      Container(
+                        padding: EdgeInsets.symmetric(vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Colors.brown,
+                          border: Border(
+                            bottom: BorderSide(
+                              color: Colors.white,
+                              width: 2.0,
+                            ),
+                          ),
+                        ),
+                        child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Expanded(
@@ -137,8 +172,19 @@ class ProfilePage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(height: 20),
-                        Row(
+                      ),
+                      Container(
+                        padding: EdgeInsets.symmetric(vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Colors.brown,
+                          border: Border(
+                            bottom: BorderSide(
+                              color: Colors.white,
+                              width: 2.0,
+                            ),
+                          ),
+                        ),
+                        child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Expanded(
@@ -155,8 +201,19 @@ class ProfilePage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(height: 20),
-                        Row(
+                      ),
+                      Container(
+                        padding: EdgeInsets.symmetric(vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Colors.brown,
+                          border: Border(
+                            bottom: BorderSide(
+                              color: Colors.white,
+                              width: 2.0,
+                            ),
+                          ),
+                        ),
+                        child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Expanded(
@@ -173,8 +230,19 @@ class ProfilePage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(height: 20),
-                        Row(
+                      ),
+                      Container(
+                        padding: EdgeInsets.symmetric(vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Colors.brown,
+                          border: Border(
+                            bottom: BorderSide(
+                              color: Colors.white,
+                              width: 2.0,
+                            ),
+                          ),
+                        ),
+                        child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Expanded(
@@ -191,11 +259,11 @@ class ProfilePage extends StatelessWidget {
                             ),
                           ],
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
                   Container(
-                    height: 60,
+                    height: 45,
                     color: Colors.brown.withOpacity(0.2),
                   )
                 ],
